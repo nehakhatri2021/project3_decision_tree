@@ -26,7 +26,7 @@ def predict_note_authentication(UserID, Gender,Age,EstimatedSalary):
 def main():
     
     html_temp = """
-      <body style="background-color:NavajoWhite;">
+      <body style="background-color:Tan;">
        </body>
    <div class="" style="background-color:MintCream; >
    <div class="clearfix">           
