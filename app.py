@@ -33,7 +33,7 @@ def main():
    <div class="col-md-12">
    <center><p style="font-size:40px;color:black;margin-top:10px;">Poornima Group Of Institution</p></center> 
    <center><p style="font-size:30px;color:black;margin-top:10px;">Department of Computer Engineering</p></center> 
-   <center><p style="font-size:25px;color:black;margin-top:10px;">Internship Project Deployment</p></center> 
+   <center><p style="font-size:25px;color:black;margin-top:10px;">Decision Tree Project</p></center> 
    </div>
    </div>
    </div>
