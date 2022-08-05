@@ -26,12 +26,9 @@ def predict_note_authentication(UserID, Gender,Age,EstimatedSalary):
 def main():
     
     html_temp = """
-      <body style="background-color:Lavender;">
+      <body style="background-color:NavajoWhite;">
        </body>
-    <marquee width="80%" direction="left" height="100px" style ="font-size:50px; color:Orange;margin-top:10px; ">
-    Decision Tree Model.
-    </marquee>
-   <div class="" style="background-color:Ivory; >
+   <div class="" style="background-color:MintCream; >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:black;margin-top:10px;">Poornima Group Of Institution</p></center> 
