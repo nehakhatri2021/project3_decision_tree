@@ -28,7 +28,7 @@ def main():
     html_temp = """
       <body style="background-color:Tan;">
        </body>
-   <div class="" style="background-color:MintCream; >
+   <div class="" style="background-color:pink; >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:black;margin-top:10px;">Poornima Group Of Institution</p></center> 
