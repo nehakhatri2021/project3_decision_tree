@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
-pickle_in = open("decision_model_project_3.pkl","rb")
+pickle_in = open("decision_model.pkl","rb")
 model=pickle.load(pickle_in)
 dataset= pd.read_csv('Social_Network_Ads.csv')
 X = dataset.iloc[:, [1, 2, 3]].values
@@ -26,15 +26,15 @@ def predict_note_authentication(UserID, Gender,Age,EstimatedSalary):
 def main():
     
     html_temp = """
-      <body style="background-color:grey;">
+      <body style="background-color:Lavender;">
        </body>
     <marquee width="80%" direction="left" height="100px" style ="font-size:50px; color:Orange;margin-top:10px; ">
     Decision Tree Model.
     </marquee>
-   <div class="" style="background-color:yellow; >
+   <div class="" style="background-color:Ivory; >
    <div class="clearfix">           
    <div class="col-md-12">
-   <center><p style="font-size:40px;color:black;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
+   <center><p style="font-size:40px;color:black;margin-top:10px;">Poornima Group Of Institution</p></center> 
    <center><p style="font-size:30px;color:black;margin-top:10px;">Department of Computer Engineering</p></center> 
    <center><p style="font-size:25px;color:black;margin-top:10px;">Internship Project Deployment</p></center> 
    </div>
@@ -56,9 +56,9 @@ def main():
     if st.button("Predict"):
       result=predict_note_authentication(UserID, Gender,Age,EstimatedSalary)
       st.success('Model has predicted {}'.format(result))
-    if st.button("About"):
-      st.subheader("Developed by Jayendra sharma")
-      st.subheader("Student , Department of Computer Engineering")
+    if st.button("About Us"):
+      st.subheader("Developed by Neha Khatri")
+      st.subheader("Student of Computer Engineering")
 
 if __name__=='__main__':
   main()
